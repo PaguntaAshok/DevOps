@@ -1,0 +1,53 @@
+[ec2-user@ip-172-31-35-199 ~]$ vi work.sh
+[ec2-user@ip-172-31-35-199 ~]$ sh work.sh
+ec2-user
+/home/ec2-user
+Fri Jun 23 17:01:04 UTC 2023
+      June 2023
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30
+
+[ec2-user@ip-172-31-35-199 ~]$ cat work.sh
+
+whoami
+pwd
+date
+cal
+
+[ec2-user@ip-172-31-35-199 ~]$
+
+[ec2-user@ip-172-31-35-199 ~]$ vi PrintMsg.sh
+[ec2-user@ip-172-31-35-199 ~]$ sh PrintMsg.sh
+				This is Ashok Kumar Reddy
+				from Bhoompurm village
+				Software Engineering
+[ec2-user@ip-172-31-35-199 ~]$ vi NameDemo.sh
+[ec2-user@ip-172-31-35-199 ~]$ sh NameDemo.sh
+				Enter your Name
+				Ashok Kumar Reddy
+				GoodMorning $a  ==>After changing '' coat to "" like "GoodMorning $a" it is working
+[ec2-user@ip-172-31-35-199 ~]$ vi NameDemo.sh
+[ec2-user@ip-172-31-35-199 ~]$ sh NameDemo.sh
+				Enter your Name
+				Ashok Kumar Reddy
+				GoodMorning Ashok Kumar Reddy
+[ec2-user@ip-172-31-35-199 ~]$
+================================================
+su ===>Switch User
+cd ===>Change Directory
+[ec2-user@ip-172-31-35-199 ~]$ sudo su -
+Last login: Fri Jun 23 18:03:48 UTC 2023 on pts/0
+[root@ip-172-31-35-199 ~]# pwd
+/root
+[root@ip-172-31-35-199 ~]# su ec2-user
+[ec2-user@ip-172-31-35-199 root]$ pwd
+/root
+[ec2-user@ip-172-31-35-199 root]$ cd ~
+[ec2-user@ip-172-31-35-199 ~]$ pwd
+/home/ec2-user
+
+
